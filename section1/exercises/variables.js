@@ -23,22 +23,37 @@ console.log(enrolledStudents);
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
-
+var warningHarry = "Harry Potter must not return to Hogwarts!";
+console.log(warningHarry);
 
 // YOU DO:
-// Declare three variables, named `firstName`, `isHungry` and `numberOfPets`. 
+// Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
   // Store the appropriate data types in each.
 // log all three variables to the console.
+var firstName = "Ivonne";
+var isHungry = true;
+var numberOfPets = 0;
+
+console.log(firstName, isHungry, numberOfPets);
 
 // IN WORDS:
-// How did you decide to use the data type you did for each of the three variables above? 
+// How did you decide to use the data type you did for each of the three variables above?
   // Explain.
-
+    // I used a string data type for the firstName variable because names are written with
+    //letters.
+    //I used a Boolean data type for the isHungry variable because this statement can only be true
+    //or false.
+    //I used a number data type for the numberOfPets variable because the only value that should be
+    //inputted should be a number.
 
 // YOU DO:
-// Re-assign the values to the three variables from the previous challenge to different 
+// Re-assign the values to the three variables from the previous challenge to different
   // values (but same data type).
 // log all three variables to the console.
+firstName = "Bonnie";
+isHungry = false;
+numberOfPets = 1;
+console.log(firstName, isHungry, numberOfPets);
 
 
 // YOU DO:
@@ -46,10 +61,12 @@ console.log(enrolledStudents);
 var healthySnacks = 6;
 var junkFoodSnacks = 8;
 
-
+console.log(healthySnacks + junkFoodSnacks);
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
-// as you would expect? 
+// Did you run this file in your terminal to make sure everything printed out to the console
+// as you would expect?
+//Type node variables.js because I'm in the directory where variables.js is;
+//you can run from anywhere as long as you type in the correct file path on the terminal. Node runs (.js) Javascript files
