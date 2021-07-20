@@ -42,6 +42,7 @@ class Burrito {
     this.toppings.push(topping); //this.toppings is an array which means that I can use the push method in order to add an element to it
   }
 };
+
 var steak = new Burrito("steak", "flour tortilla",["cheese", "sour cream", "guacamole"]);
 var breakfast = new Burrito("eggs", "flour tortilla",["cheese", "beans", "salsa"]);
 var chicken = new Burrito("chicken", "whole wheat tortilla", ["cheese", "rice", "beans"]);

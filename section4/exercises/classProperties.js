@@ -58,7 +58,7 @@ console.log(tShirt);
 
 // Prompt 1: Dog
 class DogWithProperties {
-  constructor(){
+  constructor() {
     this.age = 12;
     this.weight = "185 lbs";
     this.breed = "St. Bernard";
@@ -70,7 +70,7 @@ console.log(clifford);
 
 // Prompt 2: Snack
 class SnackWithProperties {
-  constructor(){
+  constructor() {
     this.calories = 180;
     this.weight = "210 grams";
     this.color = "brown";
@@ -82,7 +82,7 @@ console.log(twix);
 
 // Prompt 3: Shirt
 class ShirtWithProperties {
-  constructor(){
+  constructor() {
     this.color = "black";
     this.size = "small";
     this.material = "cotton";
@@ -106,7 +106,7 @@ console.log(dressShirt);
 
 // Prompt 1: Dog
 class DogDynamic {
-  constructor(age, weight, breed){
+  constructor(age, weight, breed) {
     this.age = age;
     this.weight = weight;
     this.breed = breed;
@@ -118,7 +118,7 @@ console.log(balto);
 
 // Prompt 2: Snack
 class SnackDynamic {
-  constructor(calories, weightInGrams, snackColor){
+  constructor(calories, weightInGrams, snackColor) {
     this.calories = calories;
     this.weight = weightInGrams;
     this.color = snackColor;
@@ -130,7 +130,7 @@ console.log(poptart);
 
 // Prompt 3: Shirt
 class ShirtDynamic {
-  constructor(color, size, material){
+  constructor(color, size, material) {
     this.color = color;
     this.size = size;
     this.material = material;

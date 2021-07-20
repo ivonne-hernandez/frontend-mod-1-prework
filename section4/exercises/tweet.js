@@ -33,6 +33,8 @@ var tweet3 = new Tweet("Michelle", "video","01:00AM", 1214, ["go to sleep", "nic
 console.log('tweet1:', tweet1);
 console.log('tweet2:', tweet2);
 console.log('tweet3:', tweet3);
+
 tweet1.addComment("not today!");
 tweet1.incrementLikesBy(10);
+
 console.log('tweet1:', tweet1);
