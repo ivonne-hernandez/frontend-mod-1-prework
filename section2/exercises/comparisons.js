@@ -28,7 +28,6 @@ console.log("Is numberTeachers less than numberStudents?", numberTeachers < numb
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
-
 console.log("Is numberTeachers equal to stringTeachers?", numberTeachers == stringTeachers);
 
 /*
@@ -40,6 +39,7 @@ perform this evaluation
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
 console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
+
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
 since the numberTeachers is an integer value and the stringTeachers is a string value, although they are both equal to 4,

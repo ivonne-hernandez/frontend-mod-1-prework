@@ -44,7 +44,7 @@ Log to the console the appropriate age range
 var dogAge = 3;
 
 //write your conditional here
-if (dogAge <= 2){
+if (dogAge <= 2) {
   console.log('This dog is a puppy.');
 } else if (dogAge >= 10){
   console.log('This dog is elderly');
@@ -70,14 +70,14 @@ When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 0;
+var numQuarters = 2;
 
 // Write your conditional here
-if (numQuarters === 0){
+if (numQuarters === 0) {
   console.log("I don't have enough money for a gumball");
-} else if (numQuarters === 1){
+} else if (numQuarters === 1) {
   console.log("I don't have enough money for a gumball");
-} else if (numQuarters >= 2){
+} else if (numQuarters >= 2) {
   console.log("I have enough money for a gumball");
 }
 // console.log("I have enough money for a gumball");
@@ -101,17 +101,17 @@ var cupsOfFlour = 3;
 var hasSauce = true;
 
 // Write your conditional here
-if (cupsOfFlour === 1 && hasSauce == true){
+if (cupsOfFlour === 1 && hasSauce == true) {
 console.log("I cannot make pizza");
-} else if (cupsOfFlour === 1 && hasSauce == false){
+} else if (cupsOfFlour === 1 && hasSauce == false) {
   console.log("I cannot make pizza");
-} else if (cupsOfFlour === 2 && hasSauce == true){
+} else if (cupsOfFlour === 2 && hasSauce == true) {
   console.log("I can make pizza");
-} else if (cupsOfFlour === 2 && hasSauce == false){
+} else if (cupsOfFlour === 2 && hasSauce == false) {
   console.log("I cannot make pizza");
-} else if (cupsOfFlour >= 2 && hasSauce == true){
+} else if (cupsOfFlour >= 2 && hasSauce == true) {
   console.log("I can make pizza");
-} else if (cupsOfFlour >= 2 && hasSauce == false){
+} else if (cupsOfFlour >= 2 && hasSauce == false) {
   console.log("I cannot make pizza");
 }
 
@@ -120,6 +120,5 @@ console.log("I cannot make pizza");
 For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
-
-Yes, for the pizza exercise I used the logical && operator.
+// Yes, for the pizza exercise I used the logical && operator.
 */
