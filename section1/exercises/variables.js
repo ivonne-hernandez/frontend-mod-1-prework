@@ -17,8 +17,8 @@ console.log(name);
 
 // EXAMPLE: Write code below to add 2 to the variable `students` and
 // log the result:
-var enrolledStudents = 22 + 2;
-console.log(enrolledStudents);
+var students = 22 + 2;
+console.log(students);
 
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
@@ -53,6 +53,7 @@ console.log(firstName, isHungry, numberOfPets);
 firstName = "Bonnie";
 isHungry = false;
 numberOfPets = 1;
+
 console.log(firstName, isHungry, numberOfPets);
 
 

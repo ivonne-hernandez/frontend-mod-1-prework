@@ -24,7 +24,7 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!");
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
 /*
-The data type that will be logged to the console as a result of line 22 will be a string.
+The data type that will be logged to the console as a result of line 22 will be a String.
 Javascript will convert the variable numberOfCreatures to a string so that it can combine all of these strings together.
 */
 
