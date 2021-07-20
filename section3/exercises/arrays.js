@@ -46,7 +46,7 @@ console.log(animals[4]);
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
 var myFoods;
-myFoods = ["chicken", "cereal", "yogurt", "bananas", "cashews" ];
+myFoods = ["chicken", "cereal", "yogurt", "bananas", "cashews"];
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
@@ -117,11 +117,11 @@ var chargerType = "car";
 
 // Write your conditional here
 //this first condition checks to see if percentBatteryLeft >=15
-if (percentBatteryLeft >= 15){
+if (percentBatteryLeft >= 15) {
 //if the first condition is true, then it will log that the user can call an Uber
   console.log("You can call an Uber.");
 //if the first condition is not true, this second condition will check to see if the user has a charger and that it is a car charger
-} else if (hasCharger === true && chargerType == "car"){
+} else if (hasCharger === true && chargerType == "car") {
 //if the first condition is false and the second condition is true, then it will log that the user can call an uber
   console.log("Your car charger saved you, can call an Uber.");
 //if the first and second condition are false then it will run this code block
